@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="img" src="images/travel logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="https://www.airbnb.co.in/">Home</a></li>
+                    <li><a href="" onclick="show()" id="about">About</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Take You AnyWhere You Want, At your Call</h1>
+    <p>We will take you where you want its just matter of your call to us.<br> To know more have read little bit and you are ready to go on world tour ✈</p>
+    <a href="https://www.makemytrip.com/" class="hero-btn">Visit Us To Know More</a>
+</div>
+ </section>
+   <section class="course">
+    <h1>Services We Offer</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, pariatur? Voluptates, accusamus voluptate, ea sed iste distinctio sint repellat delectus odit unde nulla.</p>
+   
+<div class="row">
+    <div class="course-col">
+        <h3>Basic</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui molestias quis doloremque dolores quos natus assumenda culpa rem enim? Autem corrupti ad deserunt maxime.</p>
+    </div>
+    <div class="course-col">
+        <h3>Intermidate</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui molestias quis doloremque dolores quos natus
+            assumenda culpa rem enim? Autem corrupti ad deserunt maxime.</p>
+    </div>
+    <div class="course-col">
+        <h3>Advance</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui molestias quis doloremque dolores quos natus
+            assumenda culpa rem enim? Autem corrupti ad deserunt maxime.</p>
+    </div>
+</div>
+
+</section>
+
+<section class="campus">
+
+<h1>Our Country Reach🌎</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+<div class="row">
+    <div class="campus-col">
+        <img src="images/country2.jpg" alt="country2">
+        <div class="layer">
+            <h3>Chez Republic</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/country3.jpg" alt="country3">
+        <div class="layer">
+            <h3>San Marina</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/country2.jpg" alt="country2">
+        <div class="layer">
+            <h3>Marin De</h3>
+        </div>
+    </div>
+</div>
+
+</section>
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores obcaecati nemo inventore corrupti delectus dolorem?</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/bus.jpg" alt="bus">
+            <h3>Free Traveling</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/hotel.jpg" alt="hotel">
+            <h3>hotel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/fun.jpg" alt="fun">
+            <h3>Free Fun</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+<h1>Avail Our facility All Over The World</h1>
+<a href="contact.html">CONTACT US</a>
+
+</section>
+
+   <script>
+
+        var navLinks =document.getElementById("navLinks");
+        function ShowMenu(){
+            navLinks.style.right="0";
+        }
+        
+        function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+            var value=document.getElementById("about");
+            function show(){
+                prompt("Tell me About you");
+            }
+    </script>
+    
+</body>
+</html>
